@@ -12,10 +12,17 @@ namespace ConsoleApp1
         {
             string str = " Khaled Alkadi";
             char[] c = str.ToCharArray();
-            foreach(char d in str)
+            foreach (char d in str)
             {
-                Console.Write(d+" ");
+                Console.Write(d);
+
             }
+
+            //int[] t = { 6, 5, 4, 3, 8, 9 };
+            //foreach(int s in t)
+            //{
+            //    Console.Write(s+" "); 
+            //}
 
 
         }
